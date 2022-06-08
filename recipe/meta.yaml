@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cellpose-napari-{{ version }}.tar.gz
   sha256: 75326915bac22b898427cbf7c1f82c22473bc9aae5abb8c50dd280b60a217dac
-  patches:
-    - exclude_tests.patch
 
 build:
   noarch: python
