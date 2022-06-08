@@ -1,5 +1,5 @@
 {% set name = "cellpose-napari" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,9 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cellpose-napari-{{ version }}.tar.gz
-  sha256: ef87dfb9e1dcbe13bb91dc6533f017468497a5ba530545bd5c44a5a4df7c8cca
-  patches:
-    - exclude_tests.patch
+  sha256: 75326915bac22b898427cbf7c1f82c22473bc9aae5abb8c50dd280b60a217dac
 
 build:
   noarch: python
