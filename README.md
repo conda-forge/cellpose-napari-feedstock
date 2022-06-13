@@ -144,5 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@carsen-stringer](https://github.com/carsen-stringer/)
-* [@conda-forge/napari](https://github.com/conda-forge/napari/)
+* [@goanpeca](https://github.com/goanpeca/)
+* [@jaimergp](https://github.com/jaimergp/)
 

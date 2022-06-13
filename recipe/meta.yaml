@@ -45,4 +45,5 @@ about:
 extra:
   recipe-maintainers:
     - carsen-stringer
-    - conda-forge/napari
+    - goanpeca
+    - jaimergp
